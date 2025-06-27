@@ -2,7 +2,7 @@
 
 Este repositório reúne meus estudos, anotações e práticas realizadas durante o curso completo de **SQL com MySQL**, desde os conceitos mais básicos até os mais avançados — incluindo modelagem de dados, PHP e análise de requisitos.
 
-📌 **Importante:** Nenhum conhecimento prévio é necessário. Todo o conteúdo está sendo registrado aqui com o objetivo de consolidar o aprendizado e manter um portfólio técnico atualizado.
+📌 **Importante:** Todo o conteúdo está sendo registrado aqui com o objetivo de consolidar o aprendizado e manter um portfólio técnico atualizado.
 
 ---
 
