@@ -44,3 +44,27 @@ VALUES ("Tenis Vans", "skt8", "Tenis para skatistas");
 
 -- Consulta final dos dados da tabela "produtos"
 SELECT * FROM produtos;
+
+
+-- Criação de outro banco de dados "new_databae"
+CREATE DATABASE new_databae;
+
+-- Seleção do banco de dados "new_databae"
+USE new_databae;
+
+-- Criação da tabela "servidores"
+CREATE TABLE servidores (
+    nome VARCHAR(100),
+    espaco_disco INT(10),
+    ligado BOOL
+);
+
+-- Inserção de dados na tabela "servidores"
+INSERT INTO servidores (nome, espaco_disco, ligado)
+VALUES ('Servidor 1', 1234567891, 0);
+
+INSERT INTO servidores (nome, espaco_disco, ligado)
+VALUES ('Servidor 2', 1234567891, 1);
+
+-- Consulta da tabela "servidores"
+SELECT * FROM servidores;
