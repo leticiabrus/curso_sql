@@ -23,7 +23,7 @@ Este repositório reúne meus estudos, anotações e práticas realizadas durant
 ## 🎓 Sobre o curso
 
 - **Curso:** SQL Completo com Certificado
-- **Plataforma:** [Insira o nome da plataforma: Alura, Udemy, DIO, etc.]
+- **Plataforma:** Udemy
 - **Banco de dados usado:** MySQL
 - **Extras:** Projeto com PHP e MySQL, Diagrama ER, Análise de Requisitos
 - **Público-alvo:**
