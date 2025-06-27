@@ -7,3 +7,40 @@ CREATE TABLE pessoas (
 
 -- Exclusão da tabela "pessoas"
 DROP TABLE pessoas;
+
+
+-- Criação do banco de dados
+CREATE DATABASE teste_tipo_dados;
+
+-- Seleciona o banco de dados para uso
+USE teste_tipo_dados;
+
+-- Criação da tabela "produtos"
+CREATE TABLE produtos (
+    nome VARCHAR(50),
+    sku CHAR(5),
+    informacoes MEDIUMTEXT
+);
+
+-- Criação da tabela "cadastro"
+CREATE TABLE cadastro (
+    nome VARCHAR(100),
+    sobrenome VARCHAR(100)
+);
+
+-- Inserção de dados na tabela "produtos"
+INSERT INTO produtos (nome, sku, informacoes)
+VALUES ("PS5", "PS5XY", "É um videogame de última geração");
+
+-- Consulta dos dados da tabela "produtos"
+SELECT * FROM produtos;
+
+-- Inserção de mais dados
+INSERT INTO produtos (nome, sku, informacoes)
+VALUES ("Iphone 6", "apple", "É um celular de última geração");
+
+INSERT INTO produtos (nome, sku, informacoes)
+VALUES ("Tenis Vans", "skt8", "Tenis para skatistas");
+
+-- Consulta final dos dados da tabela "produtos"
+SELECT * FROM produtos;
