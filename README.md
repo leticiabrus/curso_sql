@@ -20,7 +20,7 @@ Este repositório reúne meus estudos, anotações e práticas realizadas durant
 
 ---
 
-## 🎓 Sobre o Curso
+## 🎓 Sobre o curso
 
 - **Curso:** SQL Completo com Certificado
 - **Plataforma:** [Insira o nome da plataforma: Alura, Udemy, DIO, etc.]
@@ -34,7 +34,7 @@ Este repositório reúne meus estudos, anotações e práticas realizadas durant
 
 ---
 
-## 📁 Estrutura do Repositório
+## 📁 Estrutura do repositório
 
 curso-sql/
 ├── README.md # Este documento
@@ -47,7 +47,7 @@ curso-sql/
 
 ---
 
-## 📌 Tópicos Estudados
+## 📌 Tópicos estudados
 
 - [x] Introdução ao SQL e MySQL
 - [x] Gerenciamento de bancos de dados
@@ -95,7 +95,7 @@ curso-sql/
 
 ---
 
-## 🧱 Modelagem e Planejamento de Dados
+## 🧱 Modelagem e planejamento de dados
 
 Estudos e práticas de:
 
@@ -115,7 +115,7 @@ Estudos e práticas de:
 
 ---
 
-## 📈 Mercado e Aplicações
+## 📈 Mercado e aplicações
 
 SQL é uma das habilidades mais demandadas no mercado de tecnologia. As áreas de aplicação incluem:
 
