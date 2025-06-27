@@ -1,4 +1,4 @@
-# 🐘 Curso Completo de SQL com Certificado
+# 🐘 Curso completo de SQL
 
 Este repositório reúne meus estudos, anotações e práticas realizadas durante o curso completo de **SQL com MySQL**, desde os conceitos mais básicos até os mais avançados — incluindo modelagem de dados, PHP e análise de requisitos.
 
