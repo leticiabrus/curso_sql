@@ -1,0 +1,9 @@
+-- Criação da tabela "pessoas"
+CREATE TABLE pessoas (
+    nome VARCHAR(100),
+    cpf CHAR(11),
+    descricao MEDIUMTEXT
+);
+
+-- Exclusão da tabela "pessoas"
+DROP TABLE pessoas;
