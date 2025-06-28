@@ -151,3 +151,32 @@ VALUES ('Servidor 2', 1234567891, 1);
 
 -- Consulta da tabela "servidores"
 SELECT * FROM servidores;
+
+
+
+-- Criação do banco de dados "cadastro"
+CREATE DATABASE cadastro;
+
+-- Exibe todos os bancos de dados disponíveis
+SHOW DATABASES;
+
+-- Seleciona o banco de dados "cadastro" para uso
+USE cadastro;
+
+-- Criação da tabela "pessoas"
+CREATE TABLE pessoas (
+    nome VARCHAR(100),
+    rg CHAR(10),
+    cpf CHAR(11)
+);
+
+-- Consulta inicial da tabela (ainda vazia)
+SELECT * FROM pessoas;
+
+-- Inserção de registros na tabela "pessoas"
+INSERT INTO pessoas (nome, rg, cpf)
+VALUES ("Letícia", "103498763", "10834039402");
+
+INSERT INTO pessoas (nome, rg, cpf)
+VALUES ("
+
