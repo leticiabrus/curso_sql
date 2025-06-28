@@ -64,6 +64,89 @@ INSERT INTO servidores (nome, espaco_disco, ligado)
 VALUES ('Servidor 1', 1234567891, 0);
 
 INSERT INTO servidores (nome, espaco_disco, ligado)
+
+
+
+
+-- Criação da tabela "aniversarios"
+CREATE TABLE aniversarios (
+    nome VARCHAR(100),
+    data_nascimento DATE
+);
+
+-- Inserções na tabela "aniversarios"
+INSERT INTO aniversarios (nome, data_nascimento)
+VALUES ("João", "2000-03-14");
+
+SELECT * FROM aniversarios;
+
+INSERT INTO aniversarios (nome, data_nascimento)
+VALUES ("Leticia", "2000-03-14");
+
+SELECT * FROM aniversarios;
+
+
+
+-- =========================================
+-- Inclusão de coluna na tabela "funcionarios"
+-- =========================================
+
+-- Criação da tabela inicial "funcionarios"
+CREATE TABLE funcionarios (
+    nome VARCHAR(100)
+);
+
+-- Adição de coluna "profissao"
+ALTER TABLE funcionarios
+ADD COLUMN profissao VARCHAR(100);
+
+-- Inserção de dados com nova coluna
+INSERT INTO funcionarios (nome, profissao)
+VALUES ("Letícia", "Product Owner");
+
+SELECT * FROM funcionarios;
+
+-- Adição das colunas "cpf" e "idade"
+ALTER TABLE funcionarios
+ADD COLUMN cpf CHAR(11);
+
+ALTER TABLE funcionarios
+ADD COLUMN idade CHAR(2);
+
+-- Inserção com todas as colunas
+INSERT INTO funcionarios (nome, profissao, cpf, idade)
+VALUES ("Bebeto", "Programador", "10764537805", "25");
+
+SELECT * FROM funcionarios;
+
+
+
+-- ======================
+-- Remoção de colunas
+-- ======================
+
+-- Remover coluna "cpf"
+ALTER TABLE funcionarios
+DROP COLUMN cpf;
+
+SELECT * FROM funcionarios;
+
+
+
+-- ============================
+-- Modificar uma coluna
+-- ============================
+
+-- Adição de nova coluna como VARCHAR
+ALTER TABLE funcionarios
+ADD COLUMN data_nascimento VARCHAR(100);
+
+SELECT * FROM funcionarios;
+
+-- Modificação da coluna para tipo DATE
+ALTER TABLE funcionarios
+MODIFY COLUMN data_nascimento DATE;
+
 VALUES ('Servidor 2', 1234567891, 1);
 
 -- Consulta da tabela "servidores"
